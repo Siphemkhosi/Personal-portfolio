@@ -1,0 +1,240 @@
+h{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.text1{
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    color: red;
+}
+/* .all-body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+} */
+.spacing1 {
+    height: 240px;
+}
+.spacing2 {
+    height: 80px;
+  
+}
+.spacing3 {
+    height: 80px;
+}
+.navbar{
+   background-color: black;
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    /* background-color: ; */
+    font-family: sans-serif;
+    opacity: 0.8;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.navbar .menu li a{
+    /* background: url(myImg/hackerface.jpeg) no-repeat center; */
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: 0.3 ease;
+  }
+
+  .navbar .menu li{
+      color: #fff;
+   
+      /* list-style: none; */
+      display: inline-block;
+      font-weight: 500;
+      margin-left: 20px;
+  }
+.navbar .logo a{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+}
+.navbar .logo a span{
+    color: cyan;
+}
+.navbar .hearder{
+    background:  url(myImg/hackerface.jpeg) no-repeat center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hearder{
+    max-width: 1200px;
+    padding: 0 80px;
+    margin: auto;
+
+}
+.include-all{ 
+     /* background-color: black; */
+      background-position: center center;
+     background:  url(myImg/hackerface.jpeg) no-repeat center;
+     background-size:4500px; 
+    /* background-position: center center;
+    background-size:1500px; */ 
+    /* background-color: rgb(43, 7, 7); */
+    /* padding-top: 40px; */
+    margin-top: 50px;
+}
+.videowrapper{
+    width: 100vw;
+    height: p00px;
+  }
+  iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    transform: translate(-50%, -50%);
+  }
+  
+.home{
+     background:url(myImg/code.jpeg) no-repeat;
+    background-position: center center;
+    background-size:1500px; 
+    display: flex;
+    /* height: 100vh; */
+    color: white;
+    min-height: 700px;
+   
+}
+iframe{
+    width: 100%;
+}
+/* .videowrapper{
+    position: relative;
+    padding-bottom: 56.25%;
+    height:0px;
+    padding-top: 25px;
+} */
+/*  */
+.home .hearder{
+  
+    margin: auto 0 auto 40px;
+}
+.home-content{
+    color: red;
+}
+.home .home-content .greets{
+    font-size: 27px;
+   
+}
+.home .home-content .name-intro{
+  
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .carrier-into{
+   
+font-size: 40px;
+margin: 5px 0;
+}
+.home .home-content .carrier-into span{
+    color: crimson;
+    font-weight: 500;
+}
+.navbar .menu li a:hover{
+    color: cyan;
+}
+a:hover{
+    color: cyan;
+}
+a{
+    color:white ;
+}
+.footer{
+    background-color: crimson; 
+}
+#pie-chart{
+    margin-top: 20px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background: conic-gradient( blue 5.00% 46.00% , orange  46.00% 50%, red 50%);
+}
+.html1{
+    margin-top: 4px;
+    height: 10px;
+    width: 10px;
+    background:red;
+}
+.css1{
+    margin-top: 4px;
+    height: 10px;
+    width: 10px;
+    background:blue
+}
+h2{text-align: center;}
+.column-l{
+    margin-top: 30px;
+    width: 300px;
+    
+    border-radius:  20px  20px 20px 20px ;
+}
+.column-l img{
+    border-radius:  20px  20px 20px 20px ;
+    margin-left: 30px ;
+    padding-top: 10px;
+}
+.column-R{
+    margin-top: 30px;
+    border-radius:  20px  20px 20px 20px ;
+    width: 600px;
+        background: cyan;
+          margin-left: 80px;
+}
+.p1{
+    text-align: center;
+    font-weight: 500;
+    color: black;
+}
+.text{
+    /* margin-left: 40px; */
+    color: cyan;
+    font-weight: 600;
+}
+
+span{
+    padding:4px;
+}
+.info{
+    margin-top: 20px;
+    margin-left: 10px;
+    color: black;
+    font-weight: 600;
+}
+
+.JS{
+     margin-top: 4px;
+     text-align: center;
+height: 10px;
+width: 10px;
+background:orange
+}
+
+p{
+    color: #fff;
+}
+.title{
+    color: #fff;
+}
+.Keys{
+    width: 600px;
+  color: cyan;  
+}
+.actions{
+
+}
