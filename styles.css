@@ -1,4 +1,4 @@
-h{margin: 0;
+ *{margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
@@ -7,29 +7,30 @@ h{margin: 0;
     font-weight: 600;
     margin-left: 30px;
     margin-bottom: 10px;
-    color: red;
+    color: rgb(240, 98, 121);
 }
-/* .all-body{
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-} */
+.button-area{
+    color: #000;
+ } 
 .spacing1 {
-    height: 240px;
+    height: 90px;
 }
 .spacing2 {
-    height: 80px;
-  
+    height: 240px;
+
 }
 .spacing3 {
-    height: 80px;
+    height: 200px;
 }
+.spacing4 {
+    height: 160px;
+} 
 .navbar{
    background-color: black;
     position: fixed;
     width: 100%;
     padding: 15px 0;
-    /* background-color: ; */
+  
     font-family: sans-serif;
     opacity: 0.8;
     z-index: 100;
@@ -40,8 +41,7 @@ h{margin: 0;
 }
 
 .navbar .menu li a{
-    /* background: url(myImg/hackerface.jpeg) no-repeat center; */
-    color: #fff;
+    color:  white;
     font-size: 20px;
     font-weight: 500;
     margin-left: 25px;
@@ -50,8 +50,6 @@ h{margin: 0;
 
   .navbar .menu li{
       color: #fff;
-   
-      /* list-style: none; */
       display: inline-block;
       font-weight: 500;
       margin-left: 20px;
@@ -62,10 +60,11 @@ h{margin: 0;
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: cyan;
+    color:  rgb(240, 98, 121);
 }
 .navbar .hearder{
-    background:  url(myImg/hackerface.jpeg) no-repeat center;
+    background:  url(myImg/hackerface.jpeg) no-repeat center right 560px ;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -77,14 +76,15 @@ h{margin: 0;
 
 }
 .include-all{ 
-     /* background-color: black; */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
       background-position: center center;
-     background:  url(myImg/hackerface.jpeg) no-repeat center;
+     background:  url(newme.jpeg) no-repeat center;
      background-size:4500px; 
-    /* background-position: center center;
-    background-size:1500px; */ 
-    /* background-color: rgb(43, 7, 7); */
-    /* padding-top: 40px; */
+     
+
     margin-top: 50px;
 }
 .videowrapper{
@@ -101,45 +101,40 @@ h{margin: 0;
   }
   
 .home{
-     background:url(myImg/code.jpeg) no-repeat;
+     background:url(myImg/newme.jpeg) no-repeat;
     background-position: center center;
-    background-size:1500px; 
+    background-size: cover; 
     display: flex;
-    /* height: 100vh; */
+    height: 100vh;
     color: white;
-    min-height: 700px;
+    margin-left: 40px;
+   
    
 }
-iframe{
-    width: 100%;
-}
-/* .videowrapper{
-    position: relative;
-    padding-bottom: 56.25%;
-    height:0px;
-    padding-top: 25px;
-} */
-/*  */
+
+
 .home .hearder{
   
     margin: auto 0 auto 40px;
 }
 .home-content{
-    color: red;
+    color:white;
+    margin-top: 310px;
+    margin-left: 100px;
 }
 .home .home-content .greets{
     font-size: 27px;
    
 }
 .home .home-content .name-intro{
-  
-    font-size: 50px;
+  color: rgb(240, 98, 121);
+    font-size: 45px;
     font-weight: 600;
     margin-left: -3px;
 }
 .home .home-content .carrier-into{
    
-font-size: 40px;
+font-size: 35px;
 margin: 5px 0;
 }
 .home .home-content .carrier-into span{
@@ -147,70 +142,92 @@ margin: 5px 0;
     font-weight: 500;
 }
 .navbar .menu li a:hover{
-    color: cyan;
+    color: rgb(240, 98, 121);
 }
 a:hover{
-    color: cyan;
+    color: rgb(240, 98, 121);;
 }
 a{
-    color:white ;
+    color:white;
 }
-.footer{
-    background-color: crimson; 
-}
+
 #pie-chart{
+    border-style: solid;
+    border-color: black;
     margin-top: 20px;
     height: 250px;
     width: 250px;
     border-radius: 50%;
-    background: conic-gradient( blue 5.00% 46.00% , orange  46.00% 50%, red 50%);
+    background: conic-gradient( blue 5.00% 46.00% , orange  46.00% 50%, rgb(236, 80, 106) 50%)
 }
 .html1{
     margin-top: 4px;
     height: 10px;
     width: 10px;
-    background:red;
+    background:rgb(236, 80, 106) ;
 }
 .css1{
     margin-top: 4px;
     height: 10px;
     width: 10px;
-    background:blue
+    background:blue;
 }
 h2{text-align: center;}
-.column-l{
-    margin-top: 30px;
-    width: 300px;
+.front-list1{
+   
+    width: 30px;
     
-    border-radius:  20px  20px 20px 20px ;
+}
+.column-l{
+
+border-style: solid;
+border-color:rgb(240, 98, 121);;
+border-style: dashed groove none dotted;
+    width: 250px; 
+    height:250px;
+    margin-top:30px; 
+    border-radius:20px  20px 20px 20px;
+    background-color:black;
+    margin-left: 60px;
 }
 .column-l img{
-    border-radius:  20px  20px 20px 20px ;
+    width: 240px; 
+    height: 240px;
+    border-radius:20px 20px 20px 20px ;
     margin-left: 30px ;
     padding-top: 10px;
+    
+}
+.about-content{
+    width: 100%;
+    margin-right: auto;
+    margin-right: auto;
 }
 .column-R{
+    border-color: rgb(240, 98, 121);
+    border-style: solid;
     margin-top: 30px;
     border-radius:  20px  20px 20px 20px ;
     width: 600px;
-        background: cyan;
-          margin-left: 80px;
+        background: black;
+          margin-left: 100px;
 }
 .p1{
     text-align: center;
     font-weight: 500;
-    color: black;
+    color: white;
 }
 .text{
-    /* margin-left: 40px; */
-    color: cyan;
+   
+    color:rgb(212, 69, 93);;
     font-weight: 600;
+    font-size:large;
 }
 
 span{
     padding:4px;
 }
-.info{
+.info1{
     margin-top: 20px;
     margin-left: 10px;
     color: black;
@@ -226,15 +243,143 @@ background:orange
 }
 
 p{
-    color: #fff;
+    color: white;
 }
-.title{
-    color: #fff;
+.title1{
+    color:white;
 }
 .Keys{
     width: 600px;
-  color: cyan;  
+  color: black;  
 }
-.actions{
+.title {
+    color:  white;
+} 
+.projects{
+    height:100vh;
 
+}
+.title4{
+    font-weight: 600;
+    font-size: large;
+    text-align: center;
+    justify-content: center;
+}
+.Front-end{
+    color: black;
+    width: 400px;
+    height: 400px;
+}
+.back-end{
+    width: 400px;
+    height: 400px;
+}
+
+@media (min-width: 800px) and (max-width: 1125px){
+    
+     
+}
+@media (max-width: 800px){
+    #pie-chart{
+        border-style: solid;
+        border-color: black;
+        margin-top: 20px;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        background: conic-gradient( blue 5.00% 46.00% , orange  46.00% 50%, rgb(236, 80, 106) 50%)
+    } 
+    .JS{
+        margin-top: 4px;
+        text-align: center;
+   height: 10px;
+   width: 10px;
+   background:orange
+   }
+   .html1{
+    margin-top: 4px;
+    height: 10px;
+    width: 10px;
+    background:rgb(236, 80, 106) ;
+}
+.css1{
+    margin-top: 4px;
+    height: 10px;
+    width: 10px;
+    background:blue;
+}
+  .include-all{width: 100%;
+    margin-left: auto;
+      margin-right: auto;
+  }
+
+  .Keys{
+      margin-left: 0px;
+  }
+  .home{
+      
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+  .navbar{
+      position: absolute;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .hearder{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+  .hearders{
+   
+    margin-left: auto;
+    margin-right: auto; 
+  }
+  
+  .Front-end{
+    width: 120px;
+    height: 200px;
+    font-weight: 300;  
+    font-size: smaller;
+  }
+.contact-content{
+    /* max-width: 1000px; */
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: bisque; */
+    /* margin-top: 20px; */
+    padding-top: 20px;
+    width: 100%;
+}
+  .back-end{
+    width: 120px;
+    height: 200px;
+    font-weight: 300;  
+    font-size: smaller;
+  }
+  .home-content{
+      margin-right: 40px;
+  }
+  .column-l img{
+    
+    border-radius:20px 20px 20px 20px ;
+    margin-left: 2px ;
+    padding-top: 10px;
+    width: 200px; 
+    height:200px;
+    
+}
+
+  .column-l{
+    width: 200px; 
+    height:200px;
+    margin-top:10px; 
+    border-radius:20px  20px 20px 20px;
+    background-color:black;
+   
+  }
 }
